@@ -305,4 +305,4 @@ Stated plainly, because they bound what this code can claim:
 
 ---
 
-*Naveed Ali — DecodeLabs Robotics & Automation Internship, Batch 2026*
+*Ali Hassan — DecodeLabs Robotics & Automation Internship, Batch 2026*
