@@ -1,0 +1,352 @@
+{
+  "goal_reached": true,
+  "sim_time_s": 100.2,
+  "planning_resolution_m": 0.1,
+  "mean_plan_time_ms": 153.7,
+  "max_plan_time_ms": 373.6,
+  "dynamic_obstacles": [
+    {
+      "step": 300,
+      "xy": [
+        7.85,
+        14.95
+      ],
+      "radius": 0.55,
+      "lead_m": 3.0
+    },
+    {
+      "step": 620,
+      "xy": [
+        12.95,
+        5.15
+      ],
+      "radius": 0.5,
+      "lead_m": 1.1
+    }
+  ],
+  "distance_travelled_m": 48.58,
+  "map_coverage_pct": 84.7,
+  "emergency_stops": 1,
+  "replans": 13,
+  "planning_calls": 15,
+  "final_odom_error_m": 0.436,
+  "final_ekf_error_m": 0.047,
+  "ekf_improvement_pct": 89.2,
+  "plan_log": [
+    {
+      "step": 0,
+      "reason": "initial",
+      "nodes_expanded": 36110,
+      "path_cells": 321,
+      "waypoints": 15,
+      "length_m": 32.0,
+      "plan_time_ms": 373.6
+    },
+    {
+      "step": 70,
+      "reason": "path blocked",
+      "nodes_expanded": 33808,
+      "path_cells": 291,
+      "waypoints": 16,
+      "length_m": 29.0,
+      "plan_time_ms": 147.7
+    },
+    {
+      "step": 100,
+      "reason": "path blocked",
+      "nodes_expanded": 30187,
+      "path_cells": 273,
+      "waypoints": 14,
+      "length_m": 27.2,
+      "plan_time_ms": 134.2
+    },
+    {
+      "step": 130,
+      "reason": "path blocked",
+      "nodes_expanded": 25628,
+      "path_cells": 255,
+      "waypoints": 17,
+      "length_m": 25.4,
+      "plan_time_ms": 207.5
+    },
+    {
+      "step": 160,
+      "reason": "path blocked",
+      "nodes_expanded": 21765,
+      "path_cells": 237,
+      "waypoints": 16,
+      "length_m": 23.6,
+      "plan_time_ms": 102.9
+    },
+    {
+      "step": 280,
+      "reason": "path blocked",
+      "nodes_expanded": 14529,
+      "path_cells": 172,
+      "waypoints": 9,
+      "length_m": 17.1,
+      "plan_time_ms": 63.4
+    },
+    {
+      "step": 310,
+      "reason": "path blocked",
+      "nodes_expanded": 30282,
+      "path_cells": 260,
+      "waypoints": 31,
+      "length_m": 25.9,
+      "plan_time_ms": 153.3
+    },
+    {
+      "step": 380,
+      "reason": "path blocked",
+      "nodes_expanded": 33522,
+      "path_cells": 277,
+      "waypoints": 15,
+      "length_m": 27.6,
+      "plan_time_ms": 178.7
+    },
+    {
+      "step": 430,
+      "reason": "path blocked",
+      "nodes_expanded": 33961,
+      "path_cells": 283,
+      "waypoints": 17,
+      "length_m": 28.2,
+      "plan_time_ms": 215.1
+    },
+    {
+      "step": 550,
+      "reason": "path blocked",
+      "nodes_expanded": 32503,
+      "path_cells": 229,
+      "waypoints": 25,
+      "length_m": 22.8,
+      "plan_time_ms": 151.6
+    },
+    {
+      "step": 600,
+      "reason": "path blocked",
+      "nodes_expanded": 25814,
+      "path_cells": 204,
+      "waypoints": 17,
+      "length_m": 20.3,
+      "plan_time_ms": 140.7
+    },
+    {
+      "step": 621,
+      "reason": "reflex stop",
+      "nodes_expanded": 24082,
+      "path_cells": 191,
+      "waypoints": 17,
+      "length_m": 19.0,
+      "plan_time_ms": 164.8
+    },
+    {
+      "step": 625,
+      "reason": "motion blocked",
+      "nodes_expanded": 24006,
+      "path_cells": 200,
+      "waypoints": 29,
+      "length_m": 19.9,
+      "plan_time_ms": 128.1
+    },
+    {
+      "step": 730,
+      "reason": "path blocked",
+      "nodes_expanded": 18363,
+      "path_cells": 160,
+      "waypoints": 17,
+      "length_m": 15.9,
+      "plan_time_ms": 92.0
+    },
+    {
+      "step": 760,
+      "reason": "path blocked",
+      "nodes_expanded": 11680,
+      "path_cells": 141,
+      "waypoints": 17,
+      "length_m": 14.0,
+      "plan_time_ms": 52.2
+    }
+  ],
+  "events": [
+    {
+      "step": 0,
+      "t": 0.0,
+      "msg": "Mission start (2.0, 2.0) -> (18.0, 18.0)"
+    },
+    {
+      "step": 0,
+      "t": 0.0,
+      "msg": "Initial 360-degree survey complete, map coverage 9.3%"
+    },
+    {
+      "step": 0,
+      "t": 0.0,
+      "msg": "Planned (initial): 32.0 m, 15 waypoints, 36110 nodes expanded, 374 ms"
+    },
+    {
+      "step": 70,
+      "t": 7.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 70,
+      "t": 7.0,
+      "msg": "Planned (path blocked): 29.0 m, 16 waypoints, 33808 nodes expanded, 148 ms"
+    },
+    {
+      "step": 100,
+      "t": 10.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 100,
+      "t": 10.0,
+      "msg": "Planned (path blocked): 27.2 m, 14 waypoints, 30187 nodes expanded, 134 ms"
+    },
+    {
+      "step": 130,
+      "t": 13.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 130,
+      "t": 13.0,
+      "msg": "Planned (path blocked): 25.4 m, 17 waypoints, 25628 nodes expanded, 208 ms"
+    },
+    {
+      "step": 160,
+      "t": 16.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 160,
+      "t": 16.0,
+      "msg": "Planned (path blocked): 23.6 m, 16 waypoints, 21765 nodes expanded, 103 ms"
+    },
+    {
+      "step": 280,
+      "t": 28.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 280,
+      "t": 28.0,
+      "msg": "Planned (path blocked): 17.1 m, 9 waypoints, 14529 nodes expanded, 63 ms"
+    },
+    {
+      "step": 300,
+      "t": 30.0,
+      "msg": "!! Unexpected obstacle at (7.9, 15.0) -- 3.0 m dead ahead on the planned route, in no prior map"
+    },
+    {
+      "step": 310,
+      "t": 31.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 310,
+      "t": 31.0,
+      "msg": "Planned (path blocked): 25.9 m, 31 waypoints, 30282 nodes expanded, 153 ms"
+    },
+    {
+      "step": 380,
+      "t": 38.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 380,
+      "t": 38.0,
+      "msg": "Planned (path blocked): 27.6 m, 15 waypoints, 33522 nodes expanded, 179 ms"
+    },
+    {
+      "step": 430,
+      "t": 43.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 430,
+      "t": 43.0,
+      "msg": "Planned (path blocked): 28.2 m, 17 waypoints, 33961 nodes expanded, 215 ms"
+    },
+    {
+      "step": 550,
+      "t": 55.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 550,
+      "t": 55.0,
+      "msg": "Planned (path blocked): 22.8 m, 25 waypoints, 32503 nodes expanded, 152 ms"
+    },
+    {
+      "step": 600,
+      "t": 60.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 600,
+      "t": 60.0,
+      "msg": "Planned (path blocked): 20.3 m, 17 waypoints, 25814 nodes expanded, 141 ms"
+    },
+    {
+      "step": 620,
+      "t": 62.0,
+      "msg": "!! Unexpected obstacle at (13.0, 5.2) -- 1.1 m dead ahead on the planned route, in no prior map"
+    },
+    {
+      "step": 621,
+      "t": 62.1,
+      "msg": "EMERGENCY STOP -- obstacle at 0.58 m"
+    },
+    {
+      "step": 621,
+      "t": 62.1,
+      "msg": "Planned (reflex stop): 19.0 m, 17 waypoints, 24082 nodes expanded, 165 ms"
+    },
+    {
+      "step": 625,
+      "t": 62.5,
+      "msg": "Planned (motion blocked): 19.9 m, 29 waypoints, 24006 nodes expanded, 128 ms"
+    },
+    {
+      "step": 730,
+      "t": 73.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 730,
+      "t": 73.0,
+      "msg": "Planned (path blocked): 15.9 m, 17 waypoints, 18363 nodes expanded, 92 ms"
+    },
+    {
+      "step": 760,
+      "t": 76.0,
+      "msg": "Path invalidated by updated map -- re-routing"
+    },
+    {
+      "step": 760,
+      "t": 76.0,
+      "msg": "Planned (path blocked): 14.0 m, 17 waypoints, 11680 nodes expanded, 52 ms"
+    },
+    {
+      "step": 1002,
+      "t": 100.2,
+      "msg": "GOAL REACHED, final error 0.37 m"
+    }
+  ],
+  "benchmark": {
+    "astar": {
+      "nodes_expanded": 16224,
+      "path_length_m": 51.6,
+      "time_ms": 112.8
+    },
+    "dijkstra": {
+      "nodes_expanded": 24337,
+      "path_length_m": 51.6,
+      "time_ms": 173.9
+    },
+    "speedup_nodes": 1.5
+  }
+}
